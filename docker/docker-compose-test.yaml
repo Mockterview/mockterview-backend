@@ -1,0 +1,25 @@
+version: '3'
+
+services:
+  mockterview-backend:
+    container_name: mockterview-backend-app
+    image: mockterview-backend-test:latest
+    restart: always
+    networks:
+      - mockterview-backend
+    environment:
+      - ENV=test
+      - TZ=Asia/Seoul
+  proxy:
+    container_name: mockterview-nginx
+    image: mockterview-nginx-test:latest
+    restart: always
+    networks:
+      - mockterview-backend
+    ports:
+      - 80:80
+    volumes:
+      - ./proxy/nginx-test.conf:/etc/nginx/nginx.conf
+networks:
+    mockterview-backend:
+        external: true

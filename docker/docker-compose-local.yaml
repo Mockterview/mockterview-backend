@@ -1,0 +1,35 @@
+version: '3'
+
+services:
+  mockterview-backend:
+    container_name: mockterview-backend-app
+    image: mockterview-backend-local:latest
+    restart: always
+    networks:
+      - mockterview-backend
+    environment:
+      - ENV=local
+      - TZ=Asia/Seoul
+  proxy:
+    container_name: mockterview-nginx
+    image: mockterview-nginx-local:latest
+    restart: always
+    networks:
+      - mockterview-backend
+    ports:
+      - 8080:80
+    volumes:
+      - ./proxy/nginx-local.conf:/etc/nginx/nginx.conf
+  mongo:
+    container_name: mockterview-mongo
+    image: mongo:4.4
+    restart: always
+    ports:
+      - 27016:27017
+    networks:
+      - mockterview-backend
+    volumes:
+      - $PWD/volumes/mongodb_data:/data/db
+networks:
+    mockterview-backend:
+        external: true
