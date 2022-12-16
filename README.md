@@ -1,71 +1,73 @@
-# mockterview-backend-nestjs
+[![read-me.png](https://i.postimg.cc/d1WYrYNC/read-me.png)](https://postimg.cc/0MJF1Ls5)
+<br>
 
-### Installation
+<a href="https://www.mockterview.xyz">💻 Mockterview</a>
+=============
+## 🙌 Introduce Mockterview
+Mockterview는 CTO/Top-tier 개발자들이 검수한 문제로 기술 인터뷰를 연습할 수 있는 서비스입니다.<br>
+<br><img src="https://i.postimg.cc/52wjvXBF/2022-12-16-5-17-16.png)](https://postimg.cc/Jsz1C4d1" width="1000px" height="600px">
 
-```sh
-yarn install
-```
+* * *
 
-### Baselines
+## ⭐️ Core Features
+| **랜딩 페이지** |
+|:--------------:|
+|<img src="https://user-images.githubusercontent.com/77824583/208049796-8081cae5-029b-45f6-8cda-5b9d529928f2.gif" width="980" />|
 
-- TypeScript + Nest.js
+|**로그인/회원가입**|**문제집**|
+|:---:|:---:|
+|![로그인/회원가입](https://user-images.githubusercontent.com/77824583/208049734-186b6238-034c-49b2-a92f-f86fdc48cd80.gif)|![문제집](https://user-images.githubusercontent.com/77824583/208053793-d1a1df5e-89e8-4b2e-ba64-b105a27e102e.gif)|
+|**모의면접**|**모의면접 결과지**|
+|![질문 담기](https://user-images.githubusercontent.com/77824583/208049793-03471455-dbd8-4078-8811-a1f867e2a9ed.gif)|![모의면접 결과지](https://user-images.githubusercontent.com/77824583/208057907-6ca0742b-f765-468f-aacb-f395fdc2a3f8.gif)|
 
-### Configurations
+* * *
 
-1. .github
-   1. CODEOWNERS 알맞은 오너로 변경
-   2. PULL_REQUEST_TEMPLATE.md 목적에 맞게 변경
-2. config
-   1. config.\*.yaml: 환경변수
-3. [aws](https://www.notion.so/teamsparta/ECS-2cda12f09e7e4e5a87cdbdfa72a996c5#32e0e152a8944e5989d8a4b59c4433c6)
-   1. appspec.\*.yaml: CodeDeploy
-   2. buildspec.\*.yml: CodeBuild 설정
-   3. taskdef.\*.json: ECS 작업정의 설정
-4. docker
-   1. proxy: nginx 설정파일
-   2. \_server.Dockerfile: 포트 변경(EXPOSE)
-   3. create-network.sh: 서비스 이름에 맞게 네트워크명 설정
-   4. docker-compose-local.yaml: 서비스명, 포트 변경
-   5. Makefile: 서비스명 수정
-5. Swagger-UI
-   1. app.swagger.ts
-6. 포트번호 수정
-   1. 0000 으로 전체검색 후 일괄 변경
+## 📣 Project
+### 📆 Project Timeline
+- 총 기간: 2022/11/21 ~ 2022/12/23
+- 배포: 2022/12/06
 
-### Other Commands
+### 👨‍💻👩‍💻 FE Team
+|                                                         [이미정](https://github.com/MiJungle)                                            |                                                         [윤혜진](https://github.com/hyejin4169)                                                          |                                                      [이동규](https://github.com/dongury1114)                                                       |                                                                                                            
+| :----------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------: |
+| <img src="https://i.postimg.cc/sfPJs4Ht/IMG-7745.jpg" alt="프로필 이미지" width="200px"/> |  <img src="https://imagedelivery.net/v7-TZByhOiJbNM9RaUdzSA/fc3eb0a5-5c66-451a-f7c5-0ab0fdc61200/public" alt="프로필 이미지" width="200px"/> | <img src="https://imagedelivery.net/v7-TZByhOiJbNM9RaUdzSA/df1fa9e2-6f31-47da-9924-02e02a9b4000/public" alt="프로필 이미지" width="200px" /> |
+|                                                                      `Frontend`                                               |                                                                      `Frontend`                                                                       |                                                                      `Frontend`                                                                          |
 
-- 빌드 및 실행
+* * *
 
-```sh
-# 빌드 및 실행 - 로컬
-make build env=local run env=local
-```
+## 🛠 Tech Stack & Platform
+### **Tech**
+<p>
+<img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white">
+<img src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white">
+<img src="https://img.shields.io/badge/axios-007CE2?style=for-the-badge&logo=axios&logoColor=white">
+<img src="https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101">
+<img src="https://img.shields.io/badge/emotion-DB7093?style=for-the-badge&logo=emotion&logoColor=white">
+</br>
+<img src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white">
+<img src="https://img.shields.io/badge/amazons3-569A31?style=for-the-badge&logo=amazons3&logoColor=white"> 
+<img src="https://img.shields.io/badge/route53-F7A81B?style=for-the-badge&logo=route53&logoColor=white">
+<img src="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white">
+<img src="https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white">
+<br>
+</p>
 
-- 불필요한 이미지 삭제
+### **Design**
+<p>
+<img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=Figma&logoColor=white"/>
+<img src="https://img.shields.io/badge/Adobe Photoshop-31A8FF?style=for-the-badge&logo=Adobe Photoshop&logoColor=white"/>
+</p>
 
-```sh
-make delete
-```
+### **Tools**
+<p>
+<img src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=Visual Studio Code&logoColor=white"/>
+<img src="https://img.shields.io/badge/googleanalytics-E37400?style=for-the-badge&logo=googleanalytics&logoColor=white">
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white"/>
+<img src="https://img.shields.io/badge/Github-181717?style=for-the-badge&logo=github&logoColor=white">
+<br>
+</p>
 
-- ECR 이미지 푸시 ([link](https://www.notion.so/teamsparta/ECR-290c19aaf2c5432a99c9770838fec132))
+* * *
 
-```sh
-make push env=test
-make push env=prod
-```
-
-### Testing
-
-```sh
-# 공통: local, test, prod 중 test 환경 기준으로 실행함.
-# pass or fail 만 보고 싶을 때.
-yarn test
-# 커버리지도 보고싶을 때.
-yarn test:cov
-# API e2e 테스트.
-yarn test:e2e
-```
-
-# mockterview-backend-temp
-
-# mockterview-backend-temp
+## 🔥 Challenges & Trouble Shooting
+- [Wiki 바로가기](/wikilink)
