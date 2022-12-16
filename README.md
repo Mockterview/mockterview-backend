@@ -35,7 +35,7 @@ Mockterview는 CTO/Top-tier 개발자들이 검수한 문제로 기술 인터뷰
 
 |                 [신원혁](https://github.com/god1hyuk)                 |                                                     [김상호](https://github.com/ktkdgh)                                                      |
 | :-------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------: |
-| <img src="https://ibb.co/HTgrC6F" alt="프로필 이미지" width="200px"/> | <img src="https://imagedelivery.net/v7-TZByhOiJbNM9RaUdzSA/df1fa9e2-6f31-47da-9924-02e02a9b4000/public" alt="프로필 이미지" width="200px" /> |
+| <img src="<img src="https://i.ibb.co/DfK7YhV/Kakao-Talk-Photo-2022-12-16-18-43-28-002.jpg" alt="Kakao-Talk-Photo-2022-12-16-18-43-28-002" border="0">" alt="프로필 이미지" width="200px"/> | <img src="https://imagedelivery.net/v7-TZByhOiJbNM9RaUdzSA/df1fa9e2-6f31-47da-9924-02e02a9b4000/public" alt="프로필 이미지" width="200px" /> |
 |                               `Backend`                               |                                                                  `Backend`                                                                   |
 
 ---
