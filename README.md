@@ -31,12 +31,12 @@ Mockterview는 CTO/Top-tier 개발자들이 검수한 문제로 기술 인터뷰
 - 총 기간: 2022/11/21 ~ 2022/12/23
 - 배포: 2022/12/06
 
-### 👨‍💻👩‍💻 FE Team
+### 👨‍💻👩‍💻 BE Team
 
-|                           [이미정](https://github.com/MiJungle)                           |                                                   [윤혜진](https://github.com/hyejin4169)                                                   |                                                   [이동규](https://github.com/dongury1114)                                                   |
+|                                                   [윤혜진](https://github.com/hyejin4169)                                                   |                                                   [이동규](https://github.com/dongury1114)                                                   |
 | :---------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------: |
-| <img src="https://i.postimg.cc/sfPJs4Ht/IMG-7745.jpg" alt="프로필 이미지" width="200px"/> | <img src="https://imagedelivery.net/v7-TZByhOiJbNM9RaUdzSA/fc3eb0a5-5c66-451a-f7c5-0ab0fdc61200/public" alt="프로필 이미지" width="200px"/> | <img src="https://imagedelivery.net/v7-TZByhOiJbNM9RaUdzSA/df1fa9e2-6f31-47da-9924-02e02a9b4000/public" alt="프로필 이미지" width="200px" /> |
-|                                        `Frontend`                                         |                                                                 `Frontend`                                                                  |                                                                  `Frontend`                                                                  |
+| <img src="https://imagedelivery.net/v7-TZByhOiJbNM9RaUdzSA/df1fa9e2-6f31-47da-9924-02e02a9b4000/public" alt="프로필 이미지" width="200px" /> |
+|                                                                 `Frontend`                                                                  |                                                                  `Frontend`                                                                  |
 
 ---
 
