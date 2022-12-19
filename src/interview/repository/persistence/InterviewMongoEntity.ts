@@ -40,3 +40,7 @@ export class InterviewMongoEntity {
 }
 export const InterviewMongoSchema =
   SchemaFactory.createForClass(InterviewMongoEntity);
+
+InterviewMongoSchema.index({
+  userId: 1,
+});
